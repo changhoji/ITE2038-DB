@@ -1,0 +1,11 @@
+th {
+    width: 10rem;
+    height: 2rem;
+}
+td {
+    padding: 0.3rem;
+}
+
+tbody tr:nth-child(2n+1){
+    background-color: rgba(236, 236, 236, 0.29);
+}

@@ -1,0 +1,33 @@
+#student-info-field>div {
+    display: flex;
+    padding: 0.5rem;
+}
+.key, .value {
+    padding: 0.3rem;
+}
+.key {
+    border-right: 0.3rem solid gray;
+}
+.value {
+    border-left: 0.3rem solid gray;
+    position: absolute;
+    left: 10rem;
+}
+table {
+    margin: 1rem;
+}
+th {
+    width: 10rem;
+    height: 2rem;
+}
+td {
+    padding: 0.3rem;
+}
+
+tbody tr:nth-child(2n+1){
+    background-color: rgba(236, 236, 236, 0.29);
+}
+input[type="submit"] {
+
+    margin: 0.3rem;
+}

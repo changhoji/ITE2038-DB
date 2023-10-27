@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+
+* {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 0;
+    margin : 0;
+}
+body {
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+}
+table * {
+
+}
+header {
+    color: #324B4A;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1rem;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 0.1rem solid gray;
+    border-bottom: 0.1rem solid gray;
+}
+nav * {
+    font-weight: bold;
+}
+form {
+    border: 0;
+    vertical-align: center;
+    margin-bottom: 0;
+}
+input[type="text"] {
+    outline: 0;
+    border: 0.2rem solid darkgrey;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.5rem 0.4rem 0.5rem;
+    transition: all ease 0.3s;
+}
+input[type="text"]:focus {
+    border: 0.2rem solid lightblue;
+}
+input[type="submit"] {
+    font-weight: bold;
+    background-color: #F0F0F0;
+    border: 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    transition: all ease 0.4s;
+    border-radius: 0.2rem;
+}
+input[type="submit"]:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    transition: all ease 0.8s;
+}
+.nav-link {
+    border: 0;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+/*.nav-link input[type="submit"] {*/
+/*    width: 6rem;*/
+/*    height: 2rem;*/
+/*    background-color: darkcyan;*/
+/*    border-radius: 0.3rem;*/
+/*    color: white;*/
+/*    font-size: 1rem;*/
+/*}*/
+table {
+    margin: 1rem;
+}
+td, th {
+    border: 1px solid gray;
+    align-self: center;
+    vertical-align: center;
+}
+.hidden {
+    display: none;
+}
+
+select {
+    padding: 0.7rem;
+    border: 0;
+    border-radius: 0.4rem;
+
+}
